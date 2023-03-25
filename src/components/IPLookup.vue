@@ -14,13 +14,17 @@
                     </div>
                 </div>
                 <div class="row justify-content-center mt-3">
-                    <ul>
+                    <ul v-if="ip">
                         <li> <b>ISP: </b><span class="text-end">{{ isp }}</span></li>
                         <li> <b>IP: </b><span class="text-end">{{ ip }}</span></li>
                         <li> <b>City: </b><span class="text-end">{{ city }}</span></li>
                         <li> <b>Region: </b><span class="text-end">{{ region }}</span></li>
                         <li> <b>Country: </b><span class="text-end">{{ country }}</span></li>
                     </ul>
+                 
+                  <div v-else>
+
+                  </div>
                 </div>
             </div>
         </div>

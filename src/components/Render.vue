@@ -20,11 +20,14 @@
                             </div>
                     </div>
                     <div class="row justify-content-center mt-3">
-                        <ul>
+                        <ul v-if="country">
                             <li> <b>Street: </b>{{ street }}</li>
                             <li> <b>City:</b> {{ city }}</li>
                             <li> <b> State:</b> {{ state }}</li>
                             <li> <b>Country:</b> {{ country }}</li>
+                        </ul>
+                        <ul v-else>
+
                         </ul>
                     </div>
                 </div>
