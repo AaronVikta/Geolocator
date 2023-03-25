@@ -7,7 +7,7 @@
                         <p class="text-sm text-danger">{{ error }}</p>
                         <h6 class="card-title">Get your IP Address</h6>
                         <div class="card-body">
-                            <button type="button" class="btn btn-outline-primary btn-sm" @click="locateIP">
+                            <button type="button" class="btn btn-outline-success btn-sm" @click="locateIP">
                                 Get IP Address
                             </button>
                         </div>

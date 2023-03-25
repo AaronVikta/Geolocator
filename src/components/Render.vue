@@ -7,12 +7,12 @@
                             <p class="text-sm text-danger">{{ error }}</p>
                         <div class="card-body">
                             <div class="row g-8">
-                                    <div class="col-auto">
+                                    <div class="col-auto mb-2">
                                         <label for="Zip Code" class="visually-hidden">Zip Code</label>
                                         <input type="text" class="form-control" id="zipcode"
                                         placeholder="Input US Zip Code" v-model="zipcode">
                                     </div>
-                                    <div class="col-auto">
+                                    <div class="col-auto mb-2">
                                         <button type="submit" class="btn btn-outline-success mb-3" @click="locateZip">Render</button>
                                     </div>
                                 </div>
