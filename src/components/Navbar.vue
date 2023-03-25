@@ -21,7 +21,7 @@ const count = ref(0)
           <router-link to="/find" class="nav-link" aria-current="page">IP Lookup </router-link>
         </li>
         <li class="nav-item">
-          <a href="" class="nav-link">Github Link</a>
+          <a href="https://github.com/AaronVikta/geolocator" class="nav-link">Github Link</a>
         </li>
       </ul>
     </div>
